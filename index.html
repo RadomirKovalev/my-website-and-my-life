@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="site-title">Ваше имя</h1>
+        <p class="site-subtitle">Frontend / Backend / Designer</p>
+        <button class="nav-toggle" aria-label="Меню" aria-controls="site-nav" aria-expanded="false">
+          <span class="nav-toggle-box" aria-hidden="true">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Главная навигация">
+          <ul class="nav-list">
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#interests">Интересы</a></li>
+            <li><a href="#games">Игры</a></li>
+            <li><a href="#twitch">Twitch</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <div class="container">
+          <h2>Обо мне</h2>
+          <div class="about">
+            <img class="about-photo" src="https://yt3.ggpht.com/a/AGF-l781TGUNGGG_ezrkYM9e2FHbsSCW_ZOh5S_W4A=s900-c-k-c0xffffffff-no-rj-mo" alt="Жёлтый кот" width="400" height="400" />
+            <div class="about-text">
+              <p>
+                Короткое описание о вас, ваших навыках и интересах. Расскажите, чем вы занимаетесь и какие задачи любите решать.
+              </p>
+              <p>
+                Сферы интересов: веб‑разработка, дизайн интерфейсов, производительность и доступность. Люблю работать с современными стеком и аккуратной типографикой.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Навыки</h2>
+          <div class="skills-grid">
+            <article class="skill-card" style="--level: 85%">
+              <div class="skill-icon" aria-hidden="true">λ</div>
+              <div class="skill-meta">
+                <div class="skill-name">Half-Life 2</div>
+                <div class="skill-bar"><span class="skill-bar-fill" style="width: var(--level)"></span></div>
+              </div>
+            </article>
+            <article class="skill-card" style="--level: 70%">
+              <div class="skill-icon" aria-hidden="true">🐱</div>
+              <div class="skill-meta">
+                <div class="skill-name">Scratch</div>
+                <div class="skill-bar"><span class="skill-bar-fill" style="width: var(--level)"></span></div>
+              </div>
+            </article>
+            <article class="skill-card" style="--level: 60%">
+              <div class="skill-icon" aria-hidden="true">🐍</div>
+              <div class="skill-meta">
+                <div class="skill-name">Python</div>
+                <div class="skill-bar"><span class="skill-bar-fill" style="width: var(--level)"></span></div>
+              </div>
+            </article>
+            <article class="skill-card" style="--level: 80%">
+              <div class="skill-icon" aria-hidden="true">☢</div>
+              <div class="skill-meta">
+                <div class="skill-name">S.T.A.L.K.E.R.</div>
+                <div class="skill-bar"><span class="skill-bar-fill" style="width: var(--level)"></span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="interests" class="section">
+        <div class="container">
+          <h2>Интересы</h2>
+          <div class="interests-grid">
+            <article class="interest-card">
+              <div class="interest-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9h12a4 4 0 0 1 3.874 5.03l-.51 2.04A3.5 3.5 0 0 1 17.98 19H6.02a3.5 3.5 0 0 1-3.384-2.93l-.51-2.04A4 4 0 0 1 6 9zm3 2H7v2H5v2h2v2h2v-2h2v-2H9v-2zm7.25 1.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zm2.5-1a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5z"/></svg>
+              </div>
+              <div class="interest-title">Видеоигры</div>
+            </article>
+            <article class="interest-card">
+              <div class="interest-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H7a3 3 0 0 0-3 3V5.5zM20 21H7a1 1 0 0 1 0-2h13v2zM8 5v10h2V5H8z"/></svg>
+              </div>
+              <div class="interest-title">Книги</div>
+            </article>
+            <article class="interest-card">
+              <div class="interest-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 19l8.5-7-8.5-7 1.5-1 10 8 6-2 2 2-6 2-10 8-1.5-1z"/></svg>
+              </div>
+              <div class="interest-title">Путешествия</div>
+            </article>
+            <article class="interest-card">
+              <div class="interest-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.716-4.03-9.193-6.507A5.5 5.5 0 1 1 11 6.879a5.5 5.5 0 1 1 8.193 7.614C18.716 16.97 12 21 12 21z"/></svg>
+              </div>
+              <div class="interest-title">Волонтёрство</div>
+            </article>
+            <article class="interest-card">
+              <div class="interest-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 21h6v-1H9v1zm-1-3h8a6 6 0 1 0-8 0zm1.5-3a4.5 4.5 0 1 1 6 0H9.5z"/></svg>
+              </div>
+              <div class="interest-title">Разработка проектов</div>
+            </article>
+            <article class="interest-card">
+              <div class="interest-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4a8 8 0 0 0-8 8v6h3v-5H4a8 8 0 0 1 16 0h-3v5h3v-6a8 8 0 0 0-8-8z"/></svg>
+              </div>
+              <div class="interest-title">Музыка и подкасты</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Проекты</h2>
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>Проект 1</h3>
+              <p>Краткое описание проекта. Технологии, роль, результат.</p>
+              <a class="button" href="#" target="_blank" rel="noopener">Смотреть</a>
+            </article>
+            <article class="project-card">
+              <h3>Проект 2</h3>
+              <p>Краткое описание проекта. Технологии, роль, результат.</p>
+              <a class="button" href="#" target="_blank" rel="noopener">Смотреть</a>
+            </article>
+            <article class="project-card">
+              <h3>Проект 3</h3>
+              <p>Краткое описание проекта. Технологии, роль, результат.</p>
+              <a class="button" href="#" target="_blank" rel="noopener">Смотреть</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="games" class="section">
+        <div class="container">
+          <h2>Игры, в которые я играю</h2>
+          <div class="games-grid">
+            <article class="game-card">
+              <img class="game-cover" src="https://cdn.cloudflare.steamstatic.com/steam/apps/220/header.jpg" alt="Обложка Half-Life 2" width="460" height="215" />
+              <h3>Half-Life 2</h3>
+              <p>Знаковый шутер от Valve с физикой и сильным нарративом.</p>
+            </article>
+            <article class="game-card">
+              <img class="game-cover" src="https://cdn.cloudflare.steamstatic.com/steam/apps/4500/header.jpg" alt="Обложка S.T.A.L.K.E.R.: Shadow of Chernobyl" width="460" height="215" />
+              <h3>S.T.A.L.K.E.R.: Тень Чернобыля</h3>
+              <p>Атмосферный шутер в зоне отчуждения с выживанием и аномалиями.</p>
+            </article>
+            <article class="game-card">
+              <img class="game-cover" src="https://cdn.cloudflare.steamstatic.com/steam/apps/2310/header.jpg" alt="Обложка Quake" width="460" height="215" />
+              <h3>Quake</h3>
+              <p>Классический быстрый шутер id Software с культовым геймплеем.</p>
+            </article>
+            <article class="game-card">
+              <img class="game-cover" src="https://cdn.cloudflare.steamstatic.com/steam/apps/2280/header.jpg" alt="Обложка DOOM (1993)" width="460" height="215" />
+              <h3>DOOM</h3>
+              <p>Легенда жанра: динамика, демоны и непрерывный экшен.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="twitch" class="section">
+        <div class="container">
+          <h2>Мой канал на Twitch</h2>
+          <div class="video-embed" aria-label="Встроенный плеер Twitch">
+            <iframe
+              src="https://player.twitch.tv/?channel=your_channel&parent=localhost"
+              allowfullscreen
+              scrolling="no"
+              frameborder="0"
+              title="Twitch Player"
+            ></iframe>
+          </div>
+          <p>
+            Если плеер не загрузился, перейдите по ссылке: 
+            <a href="https://twitch.tv/your_channel" target="_blank" rel="noopener">twitch.tv/radomirplay</a>
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Контакты</h2>
+          <form class="contact-form" action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
+            <input type="hidden" name="subject" value="Новое сообщение с портфолио" />
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Имя</label>
+                <input id="name" name="name" type="text" placeholder="Ваше имя" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="message">Сообщение</label>
+              <textarea id="message" name="message" rows="5" placeholder="Коротко опишите вопрос" required></textarea>
+            </div>
+            <button class="button" type="submit">Отправить</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Ваше имя</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
